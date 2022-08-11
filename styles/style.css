@@ -6,3 +6,143 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+    padding: 0;
+}
+
+nav img {
+    background-size: cover;
+    height: 60px;
+}
+
+
+#header {
+    background-image: url("https://github.com/Konradvr/lab-css-spotify-clone/blob/master/images/landing.jpg?raw=true");
+    background-size: cover;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;   
+    margin: 0;  
+
+}
+
+h1{
+    color: #fff;; 
+    font-size: 100px; 
+    text-align: center;
+    padding-top: 350px;
+}
+
+#header p {
+    color: #fff; 
+    text-align: center;
+}
+
+#section-1 {
+    padding-bottom: 0;
+}
+
+#section-1 h2 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.section-1-hr {
+    align-items: center;
+    width: 280px;
+    margin-top: 3px;
+    color: #00B172; 
+    height: 3px;
+    background-color: #00B172;
+    margin: auto;
+    padding: 0;
+    
+}
+
+
+#section-2 {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
+#section-2 h3{
+    color: #00B172;
+    font-weight: 300; /* why is this not working*/ 
+
+}
+
+#section-2 img{
+    height: 150px;
+}
+
+.section-2-div {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 0;
+    text-align: center;
+}
+
+
+#section-3 {
+    background-color: #00B172;
+    color: #fff;
+   
+
+}
+
+.section-3-h2 {
+    font-size: 50px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.section-3-hr {
+    align-items: flex-start;
+    width: 590px;
+    margin: 0%;
+    padding-top: 3px;
+    background-color: #fff;
+}
+
+.section-3-div {
+    font-size: 30px;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    padding-right: 70px;
+
+
+
+}
+
+.white-Icon {
+    height: 130px;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 200px;
+}
+
+.spotify-app {
+    height: 600px;
+    padding-left: 100px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+}
+
+
+
